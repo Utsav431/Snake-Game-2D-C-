@@ -1,6 +1,8 @@
 #include<iostream>
+#include<cstdlib>int rand();
 #include<conio.h>
 #include<Windows.h>
+#include<graphics.h>
 using namespace std;
 
 enum Direction{STOP = 0, LEFT, RIGHT, UP, DOWN};
@@ -22,7 +24,7 @@ int main(){
     cout << "\t-------------------------------" << endl;
     cout << "\t\t :Snake King:" << endl;
     cout << "\t-------------------------------" << endl;
-    cout << "\tPress 's' to option: ";
+    cout << "\tPress 's' to start: ";
     cin >> start;
     if(start == 's'){
         setup();
